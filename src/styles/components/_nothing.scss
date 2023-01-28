@@ -1,0 +1,23 @@
+.nothing__main-content{
+    align-items: center;
+    background-color: $primary;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:80vh;
+    width: 40vw;
+    border-radius: 0 1rem 1rem 0;
+
+    p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px){
+    .nothing__main-content{
+        border-radius: 0;
+        height: 100vh;
+        width: 85vw;
+    }
+}
